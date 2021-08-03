@@ -8,7 +8,7 @@ from ir2json import convert_to_json_ir
 
 
 def main():
-    parser = ArgumentParser(description="Convert Gilson CSV to JSON file")
+    parser = ArgumentParser(description="Convert Bruker OPUS to JSON file")
     parser.add_argument(
         "filenames",
         help="convert given filename(s) to json",
